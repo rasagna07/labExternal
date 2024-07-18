@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #heading {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            /* color: rgb(19, 114, 135); */
+        }
+        body {
+            background-image: url("lab4bg.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #sideHeadings {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-top: 1%;
+            padding-bottom: 1%;
+        }
+        #text {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: lighter;
+        }
+
+        form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    
+  }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rasagna's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#academicSkills">Academic Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Achievements">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contantme">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="heading">Welcome to my portfolio!!</h1>
+            </div>
+        </div>  <section id="aboutme">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 id="sideHeadings">About me</h3>
+              
+                    <h6 id="text">Hi!! I'm Rasagna. Here, you'll discover insights into my journey, skills, projects,
+                        achievements, and blog posts. Explore and get to know more about me.<br>
+                        Highly motivated and dedicated Computer Science Engineering student, studying at Keshav Memorial Institute of Technology.. I love solving problems and creating innovative solutions.
+                    </h6>
+              
+            </div>
+        </div>
+        </section>
+        <section id="education">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 id="sideHeadings">Education </h3>
+              
+                    <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th class="col-md-3">Qualification</th>
+                                    <th class="col-md-4">Institution</th>
+                                    <th class="col-md-2">Year</th>
+                                    <th class="col-md-3">Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody id="qualificationTable">
+                                
+                            </tbody>
+                        </table>
+                    </div>
+            
+            </div>
+        </div>
+        <section id="education">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+               <center> <button id="populateBtn" class="btn btn-primary btn-block">Populate Qualification Table</button></center>
+            </div>
+        </div>
+        <section id="academicSkills">
+        <div class="row">
+            <div class="col">
+       
+                    <h3 id="sideHeadings">ACADEMIC SKILLS</h3>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-1">
+
+                </div>
+                <div class="col-4">
+                    <h4>Technical Skills</h4>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Machine Learning</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="col-7">
+                    <h4>Soft Skills</h4>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Time Management</li>
+                        <li>Logical Thinking</li>
+                        <li>Communication</li>
+                        <li>Critical Thinking</li>
+                        <li>Leadership</li>
+                    </ul>
+                </div>
+            </div>
+            </section>
+<div class="row">
+    <div class="col">
+        <section id="Projects">
+            <h3 id="sideHeadings">PROJECT</h3>
+            <p>Here are some of the projects I have worked on:</p>
+            <ul>
+              
+              
+                <li>Project 1: MERN stack Project on Mental Wellness Quotient </li>
+                <li>Project 2: Web-based Todo List Application</li>
+                <li>Project 3: Data Analysis Tool for Financial Data</li>
+                <li>Project 4: Face Recognizing App </li>
+            </ul>
+           
+        </section>
+    </div>
+</div>
+       <div class="row">
+        <div class="col">
+            <section id="Achievements">
+                <h3 id="sideHeadings">ACHIEVEMENTS</h3>
+                <p>Some of my achievements include:</p>
+                <ul>
+                 
+              
+               <li>Received Best Student Award in Computer Science Department</li>
+               <li>Won First Prize in a Hackathon Competition</li>
+            <li>NPTEL: Elite Certificate in python for Data Science</li>
+                </ul>
+            </section>
+        </div>
+       </div>
+       <section id="contantme">
+       <div class="row">
+        <div class="col">
+            <h3 id="sideHeadings">Contact Me</h3>
+        </div>
+       </div>
+       
+<div class="row">
+    <div class="col">
+       <form>
+        <label for="myemail">Email</label>
+        <input type="email" id="myemail" placeholder="Enter your email here" required>
+    
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Type your message here"></textarea>
+    
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    </div>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var qualificationsData = [
+            { "Qualification": "SSC", "Institution": "Dilsukhnagar", "Year": 2019, "Grade": 9.8 },
+            { "Qualification": "TSBIE", "Institution": "Narayna junior College", "Year": 2021, "Grade": 9.6 },
+            { "Qualification": "BTech", "Institution": "Keshav Memorial Institute of Technology", "Year": 2025, "Grade": 8.9 }
+        ];
+
+        document.getElementById("populateBtn").addEventListener("click", function() {
+            var tableBody = '';
+
+            qualificationsData.forEach(function(qualification) {
+                tableBody += '<tr>';
+                tableBody += '<td>' + qualification.Qualification + '</td>';
+                tableBody += '<td>' + qualification.Institution + '</td>';
+                tableBody += '<td>' + qualification.Year + '</td>';
+                tableBody += '<td>' + qualification.Grade + '</td>';
+                tableBody += '</tr>';
+            });
+
+            document.getElementById("qualificationTable").innerHTML = tableBody;
+            document.getElementById("populateBtn").style.display = "none";
+
+        });
+    </script>
+</body>
+</html>
